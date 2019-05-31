@@ -34,7 +34,7 @@ void count()
 	fenmi=S/10%10;
 	mi=S/100;
 	 }
-	 if((limi>=0&&limi<=9)&&(limi>=0&&limi<=9)&&(limi>=0&&limi<=8))
+	 if((limi>=0&&limi<=9)&&(fenmi>=0&&fenmi<=9)&&(mi>=0&&mi<=8))
 	 {
 	 ttldat[2]=limi;
 	  ttldat[1]=fenmi;
@@ -74,7 +74,7 @@ void main(void)
 		TR0=0;				//¹Ø±Õ¼ÆÊı
 		count();
 		lcddisplay();
-		delayms(500);
+		delayms(100);
 		TI=1;
 	}
 			

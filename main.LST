@@ -1,4 +1,4 @@
-C51 COMPILER V9.01   MAIN                                                                  05/29/2019 14:59:16 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  05/31/2019 19:17:35 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
@@ -43,7 +43,7 @@ line level    source
   34   2              fenmi=S/10%10;
   35   2              mi=S/100;
   36   2               }
-  37   1               if((limi>=0&&limi<=9)&&(limi>=0&&limi<=9)&&(limi>=0&&limi<=8))
+  37   1               if((limi>=0&&limi<=9)&&(fenmi>=0&&fenmi<=9)&&(mi>=0&&mi<=8))
   38   1               {
   39   2               ttldat[2]=limi;
   40   2                ttldat[1]=fenmi;
@@ -62,7 +62,7 @@ line level    source
   53   1              lcddat('M');
   54   1              
   55   1      }
-C51 COMPILER V9.01   MAIN                                                                  05/29/2019 14:59:16 PAGE 2   
+C51 COMPILER V9.01   MAIN                                                                  05/31/2019 19:17:35 PAGE 2   
 
   56          
   57          
@@ -85,7 +85,7 @@ line level    source
   74   2                      TR0=0;                          //¹Ø±Õ¼ÆÊı
   75   2                      count();
   76   2                      lcddisplay();
-  77   2                      delayms(500);
+  77   2                      delayms(100);
   78   2                      TI=1;
   79   2              }
   80   1                              
@@ -105,7 +105,7 @@ line level    source
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =    743    ----
+   CODE SIZE        =    734    ----
    CONSTANT SIZE    =     16    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----

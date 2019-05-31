@@ -43,13 +43,14 @@ void SendData()
     unsigned int i;
     unsigned char a[]="æ‡¿Î:";	
 	   
-	   SendString(a);
+	  // SendString(a);
+	  SendChar('D');
 	   for(i=0;i<3;i++)
 	   {   if(i==1)
 	   		 SendChar('.');
 	     SendByte(ttldat[i]);
     	}
-		 SendChar('M');
+		// SendChar('M');
 	    SendChar('\r');
 	    SendChar('\n');
 	
